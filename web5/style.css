@@ -1,0 +1,78 @@
+ body {
+     background-image: url(img/cover1.png);
+     background-repeat: no-repeat;
+     background-size: fill;
+ }
+ 
+ @font-face {
+     font-family: 'Mina';
+     src: url('https://fonts.googleapis.com/css2?family=Mina:wght@700&display=swap');
+ }
+ 
+ h2 {
+     position: absolute;
+     width: 681px;
+     height: 276px;
+     left: 96px;
+     top: 180px;
+     font-family: 'Mina', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 80px;
+     line-height: 92px;
+     color: white;
+ }
+ 
+ .button {
+     background: linear-gradient(95.72deg, #DE2092 0%, rgba(174, 28, 160, 0.833333) 53.64%, #6B1FCD 84.24%);
+     border: none;
+     color: white;
+     display: inline-block;
+     text-align: center;
+     font-size: 30px;
+     cursor: pointer;
+     position: absolute;
+     width: 245px;
+     height: 66px;
+     left: 96px;
+     top: 540px;
+ }
+ 
+ h3 {
+     position: absolute;
+     width: 145px;
+     height: 44px;
+     left: 1211px;
+     top: 15px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 30px;
+     line-height: 44px;
+     /* identical to box height */
+     color: #FFFFFF;
+ }
+ 
+ h4 {
+     position: absolute;
+     width: 109px;
+     height: 120px;
+     left: 1220px;
+     top: 70px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 40px;
+     /* or 143% */
+     text-align: right;
+     color: #FFFFFF;
+ }
+ 
+ lord-icon {
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     left: 1220px;
+     top: 240px;
+ }

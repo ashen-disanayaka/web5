@@ -1,0 +1,181 @@
+body {
+    background-image: url(img/coverlogin.png);
+    background-repeat: no-repeat;
+    background-size: fill;
+}
+
+@font-face {
+    font-family: 'Mina';
+    src: url('https://fonts.googleapis.com/css2?family=Mina:wght@700&display=swap');
+}
+
+h1 {
+    /* lOGIN */
+    position: absolute;
+    width: 162px;
+    height: 92px;
+    left: 316px;
+    top: 50px;
+    font-family: 'Mina', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 92px;
+    /* identical to box height, or 144% */
+    color: #FFFFFF;
+}
+
+lord-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 480px;
+    top: 50px;
+}
+
+input[placeholder=UserName] {
+    position: absolute;
+    left: 380px;
+    top: 100px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 92px;
+    /* identical to box height, or 256% */
+    color: #FFFFFF;
+}
+
+input::placeholder {
+    position: absolute;
+    left: 50px;
+    margin: 8px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 92px;
+    /* identical to box height, or 256% */
+    color: #FFFFFF;
+}
+
+input[type=text] {
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    left: 316px;
+    top: 200px;
+    background: rgba(217, 217, 217, 0.5);
+    border: none;
+}
+
+input[placeholder=Password] {
+    position: absolute;
+    left: 380px;
+    top: 349px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 92px;
+    /* identical to box height, or 256% */
+    color: #FFFFFF;
+}
+
+input[type=password] {
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    left: 316px;
+    top: 290px;
+    background: rgba(217, 217, 217, 0.5);
+    border: none;
+}
+
+.button {
+    border: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    width: 245px;
+    height: 66px;
+    left: 316px;
+    top: 380px;
+    background: #5BE6EF;
+}
+
+h2 {
+    position: absolute;
+    left: 620px;
+    top: 355px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    /* identical to box height, or 230% */
+    color: #FFFFFF;
+}
+
+.icon-circle {
+    width: 8px;
+    height: 8px;
+    margin: 5px;
+    animation: icon-bounce 0.6s infinite;
+}
+
+@keyframes icon-bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.email img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 890px;
+    top: 350px;
+    cursor: pointer;
+}
+
+.apple img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 990px;
+    top: 350px;
+    cursor: pointer;
+}
+
+.create h2 {
+    /* create new account, Register */
+    position: absolute;
+    left: 360px;
+    top: 500px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-size: 36px;
+    /* identical to box height, or 256% */
+    color: #FFFFFF;
+}
+
+.regi h2 {
+    position: absolute;
+    left: 680px;
+    top: 500px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-size: 36px;
+    /* identical to box height, or 256% */
+    color: rgba(96, 235, 210, 0.99);
+    cursor: pointer;
+}
